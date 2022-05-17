@@ -1,0 +1,11 @@
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\bin\Debug\GenpactTestDeveloper.exe.config
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\bin\Debug\GenpactTestDeveloper.exe
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\bin\Debug\GenpactTestDeveloper.pdb
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.csproj.AssemblyReference.cache
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.csproj.SuggestedBindingRedirects.cache
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.Form1.resources
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.Properties.Resources.resources
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.csproj.GenerateResource.cache
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.csproj.CoreCompileInputs.cache
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.exe
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.pdb
