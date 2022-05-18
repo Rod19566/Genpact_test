@@ -10,3 +10,11 @@ C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.cspro
 C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.exe
 C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.pdb
 C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.csproj.ResolveComReference.cache
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\bin\Debug\Aspose.Cells.dll
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\bin\Debug\Spire.Pdf.dll
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\bin\Debug\Spire.XLS.dll
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\bin\Debug\Microsoft.mshtml.dll
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\bin\Debug\Aspose.Cells.xml
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\bin\Debug\Spire.Pdf.xml
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\bin\Debug\Spire.XLS.xml
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.csproj.CopyComplete
