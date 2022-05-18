@@ -25,9 +25,10 @@ namespace GenpactTestDeveloper
         }
         //GLOBALES
         FileStream v;
-        string dir;
+        string dir, newdir, newfile;
         int cont = 0;
-
+        Microsoft.Office.Interop.Excel.Application xlApp = new Microsoft.Office.Interop.Excel.Application();
+        Microsoft.Office.Interop.Excel.Workbook MASTERwb;
         /*
         static void Main()
         {
@@ -109,23 +110,48 @@ namespace GenpactTestDeveloper
             string extn = fi.Extension;
             string filename = fi.Name;
             textBox2.Text = extn;
-            
+
             if (extn != ".txt") //compares extension
             {
-                //string newfoldername = @"\NotApplicable";
-                //obtains new address for new file
                 folderCreateMove(dir, "NotApplicable", filename, path);
             }
             else
             {
                 folderCreateMove(dir, "Processed", filename, path);
+                if (xlApp == null) //checks is excel is installed
+                {
+                    MessageBox.Show("Excel is not properly installed!!");
+                    return;
+                }
+                else //if the file is xsl type
+                {
+                    MASTERwb = xlApp.Workbooks.Add(Type.Missing); //creates new workbook
+                                                                  //
+                    newdir = System.IO.Path.Combine(newdir, "MASTERwb.xlsx"); //Creates excel path
+                                                                              //Changes excel name
+                    object missing = System.Reflection.Missing.Value;
+                    try
+                    {
+                        MASTERwb.SaveAs(@newdir, Microsoft.Office.Interop.Excel.XlFileFormat.xlOpenXMLWorkbook, missing, missing,
+                        false, false, Microsoft.Office.Interop.Excel.XlSaveAsAccessMode.xlNoChange,
+                        missing, missing, missing, missing, missing);
+
+                    }
+                    catch
+                    {
+                        //File Exists, will not create
+                    }
+                    //MASTERwb.Save(); //Saves file addition
+                }
             }
         }
         //Creates folder
         private void folderCreateMove(string OGaddress, string FolderName, string FileName, string filepath )
         {
-            string newdir = System.IO.Path.Combine(OGaddress, FolderName);
-            string newfile = System.IO.Path.Combine(newdir, FileName); //creates new address
+            //obtains new address for new file in new folder
+            newdir = System.IO.Path.Combine(OGaddress, FolderName);
+            //
+            newfile = System.IO.Path.Combine(newdir, FileName); //creates new address
 
             System.IO.Directory.CreateDirectory(newdir); //creates folder if not existing
             System.IO.File.Move(filepath, newfile);

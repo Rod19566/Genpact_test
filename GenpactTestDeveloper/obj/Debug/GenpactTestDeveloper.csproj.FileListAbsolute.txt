@@ -9,3 +9,4 @@ C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.cspro
 C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.csproj.CoreCompileInputs.cache
 C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.exe
 C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.pdb
+C:\Users\WMGWW\Desktop\GenpactTestDeveloper\obj\Debug\GenpactTestDeveloper.csproj.ResolveComReference.cache
